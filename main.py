@@ -32,7 +32,7 @@ agent = initialize_agent(
     max_iterations=5,
     verbose=True,
     memory=conversational_memory,
-    early_stoppy_method='generate'
+    early_stopping_method='generate'
 )
 
 # set title
